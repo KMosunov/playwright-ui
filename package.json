@@ -2,7 +2,10 @@
   "name": "playwright-ui",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prettier:format": "prettier --write \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "prettier:check": "prettier --check \"tests/**/*.{ts,tsx,js,jsx,json,css,md}\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +16,6 @@
   },
   "dependencies": {
     "@faker-js/faker": "^9.5.0",
-    "dotenv": "^16.4.7"
+    "prettier": "^3.5.2"
   }
 }
