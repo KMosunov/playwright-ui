@@ -1,31 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playwright Locator Single Element Example</title>
-</head>
-<body>
-<!-- Single element with
+  </head>
+  <body>
+    <!-- Single element with
 multiple attributes for different Playwright locators -->
-<button
-        class="test"
-        role="button"
-        title="Submit Button"
-        data-testid="submit-order"
-        id="submit-order">
-    Place your order
-</button>
+    <button
+      class="test"
+      role="button"
+      title="Submit Button"
+      data-testid="submit-order"
+      id="submit-order"
+    >
+      Place your order
+    </button>
 
-<!-- Input field after the button -->
-<input
-        class="test"
-        role="textbox"
-        type="text"
-        name="username"
-        id="username"
-        data-testid="username"
-        placeholder="Enter your username" />
-
-</body>
+    <!-- Input field after the button -->
+    <label for="username"></label><input
+      class="test"
+      role="textbox"
+      type="text"
+      name="username"
+      id="username"
+      data-testid="username"
+      placeholder="Enter your username"
+    />
+  </body>
 </html>
